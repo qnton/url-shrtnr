@@ -1,0 +1,20 @@
+### check slug
+
+curl -X GET http://127.0.0.1:8787/test/check
+
+### post with slug
+
+curl -X POST http://127.0.0.1:8787/shorten \
+-H "Content-Type: application/json" \
+-d '{"url": "https://qnt.one", "slug": "test"}'
+
+### post without slug
+
+curl -X POST http://127.0.0.1:8787/shorten \
+-H "Content-Type: application/json" \
+-d '{"url": "https://qnt.one"}'
+
+### get redirected
+
+curl -X GET http://127.0.0.1:8787/test \
+-H "Content-Type: application/json"

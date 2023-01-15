@@ -1,0 +1,41 @@
+{
+  "name": "url-shrtnr",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "deploy": "turbo run deploy "
+  },
+  "devDependencies": {
+    "eslint-config-custom": "*",
+    "prettier": "latest",
+    "prettier-plugin-tailwindcss": "^0.2.1",
+    "turbo": "latest"
+  },
+  "optionalDependencies": {
+    "turbo-android-arm64": "1.4.7",
+    "turbo-darwin-64": "1.6.3",
+    "turbo-darwin-arm64": "1.6.3",
+    "turbo-freebsd-64": "1.4.7",
+    "turbo-freebsd-arm64": "1.4.7",
+    "turbo-linux-32": "1.4.7",
+    "turbo-linux-64": "1.6.3",
+    "turbo-linux-arm": "1.4.7",
+    "turbo-linux-arm64": "1.6.3",
+    "turbo-linux-mips64le": "1.4.7",
+    "turbo-linux-ppc64le": "1.4.7",
+    "turbo-windows-32": "1.4.7",
+    "turbo-windows-64": "1.6.3",
+    "turbo-windows-arm64": "1.6.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "npm@8.19.2"
+}
