@@ -14,9 +14,9 @@ Please note that in order to fully use this project, you will need to have a Clo
 
 Before you can run the project, you will need to have npm, node, and git installed on your machine.
 
-1. Clone the repository using git: ``git clone https://github.com/qnton/url-shrtnr.git``
-2. Navigate to the project directory: ``cd url-shrtnr``
-3. Install the project dependencies: ``npm install``
-4. In the backend directory, copy the ``wrangler.toml.sample`` file to ``wrangler.toml`` and adjust the variables as needed.
-5. In the frontend directory, copy the ``.env.sample`` file to ``.env.local`` and adjust the variables as needed.
-6. Run the project: ``npm run dev``
+1. Clone the repository using git: `git clone https://github.com/qnton/url-shrtnr.git`
+2. Navigate to the project directory: `cd url-shrtnr`
+3. Install the project dependencies: `npm install`
+4. In the backend directory, copy the `wrangler.toml.sample` file to `wrangler.toml` and adjust the variables as needed.
+5. In the frontend directory, copy the `.env.sample` file to `.env.local` and adjust the variables as needed.
+6. Run the project: `npm run dev`
