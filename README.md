@@ -6,7 +6,7 @@ The project is set up as a mono repo using Turbo, with both the frontend and bac
 
 ## Preview
 
-[gif]
+![preview](https://user-images.githubusercontent.com/47970111/212549515-9cecd087-7d1c-4be2-8771-20946a63623e.gif)
 
 Please note that in order to fully use this project, you will need to have a Cloudflare account and set up a worker and KV storage. The documentation for this can be found on the Cloudflare website.
 
