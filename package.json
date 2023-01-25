@@ -16,6 +16,7 @@
     "eslint-config-custom": "*",
     "prettier": "latest",
     "prettier-plugin-tailwindcss": "^0.2.1",
+    "qnton-prettier-config": "^1.0.1",
     "turbo": "latest"
   },
   "optionalDependencies": {
